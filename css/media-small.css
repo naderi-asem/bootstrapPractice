@@ -1,0 +1,100 @@
+@media (min-width: 576px) and (max-width: 768px){
+    
+    .container-fluid{
+        width: 100% !important;
+        padding: 0;
+    }
+
+    /************* set menu style **********/
+    i.brand-icon{
+        width: 50px !important;
+        height: 50px !important;
+        font-weight: bolder;
+        color: rgb(235, 235, 235) !important;
+        font-size: 42px;
+        text-align: center;
+        line-height: 53px;
+    }
+
+    ul.navbar-nav>li.nav-item{
+        font-family: "BNazanin";
+    }
+    
+    ul.navbar-nav{
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    ul.navbar-nav>li.nav-item{
+        width: 100%;
+        text-align: center;
+    }
+
+    ul.navbar-nav>li.nav-item:hover>a:hover{
+        background-color: rgb(0, 0, 255);
+        color: aliceblue;
+        transition: all 0.3s linear;
+    }
+
+    .menu>nav>div>form>input{
+        min-width: 75%;
+    }
+
+    .menu>nav>div>form>input{
+        text-align: right;
+    }
+
+    .menu>nav>div>form>input::placeholder{
+        text-align: end;
+    }
+    /************* end menu  **********/
+
+    /************* set slider style **********/
+    #home{
+        margin-bottom: 300px !important;
+    }
+    /************* end slider style **********/
+
+    /************* set about style **********/
+    /************* end about **********/
+
+    /************* set contact style **********/
+    /************* end contact **********/
+
+    /************* set gallery style **********/
+    /************* end gallery **********/
+
+    /************* set footer style **********/
+    footer.row{
+        min-height: 500px;
+        background: url(../images/wave-channged01.png) no-repeat center; 
+    }
+    footer.row>.col-10>div.row>div{
+        margin-bottom: 2px;
+    }
+
+    footer.row p{
+        text-align: justify !important;
+        direction: rtl;
+        color: lightblue;
+        font-family: "BNazanin";
+    }
+
+    footer.row h6 {
+        font-family: "BTitr";
+        font-weight: bold;
+    }
+
+    i.fi{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        color: #3a0c94;
+    }
+
+    i.fi:hover{
+        color: gold;
+    }
+    /************* end footer **********/
+    
+}

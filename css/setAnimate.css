@@ -1,0 +1,18 @@
+@keyframes display_animate {
+    0% {
+        position: relative;
+        top: 5px; 
+    }
+
+    50% {
+        position: relative;
+        bottom: 5px;
+    }
+
+    100% {
+        position: relative;
+        top: 0;
+        bottom: 0;
+    }
+    
+}
